@@ -13,8 +13,7 @@ class GrFosphor < Formula
       system 'cmake', '..',
         *std_cmake_args,
         "-DPYTHON_LIBRARY=#{python_prefix}/Python",
-        '-DPYTHON_INCLUDE_DIRS="/usr/local/Cellar/python/2.7.10_2/Frameworks/Python.framework/Versions/2.7/include/python2.7,/usr/local/Cellar/python/2.7.10_2/Frameworks/Python.framework/Versions/2.7/include/python2.7"',
-        "-DCMAKE_INSTALL_PREFIX=#{Formula['gnuradio'].prefix}"
+        '-DPYTHON_INCLUDE_DIRS="/usr/local/Cellar/python/2.7.10_2/Frameworks/Python.framework/Versions/2.7/include/python2.7,/usr/local/Cellar/python/2.7.10_2/Frameworks/Python.framework/Versions/2.7/include/python2.7"'
       system "make"
       system "make", "install"
     end
