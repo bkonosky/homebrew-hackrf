@@ -59,7 +59,7 @@ These steps have been tested on Mountain Lion 10.10.5 with Xcode 6.4. It is prob
 - Install gnuradio
 
   ```sh
-  brew tap robotastic/homebrew-hackrf
+  brew tap bkonosky/homebrew-hackrf
   brew install gnuradio --with-qt
   ```
 - Install HackRF Libraries
