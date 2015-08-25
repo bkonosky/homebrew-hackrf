@@ -8,7 +8,7 @@ This will walk you through getting HackRF to work on OSX. It is really just an a
 
 ## Installation
 
-These steps have been tested on Mountain Lion 10.8.4 with Xcode 4.6.3. It is probably a good idea to make sure all OSX updates have been applied and Xcode is up to date. Also, probably good to install the Xcode command line apps as explained over at[Stackoverflow](http://stackoverflow.com/a/932932).
+These steps have been tested on Mountain Lion 10.10.5 with Xcode 6.4. It is probably a good idea to make sure all OSX updates have been applied and Xcode is up to date. Also, probably good to install the Xcode command line apps as explained over at[Stackoverflow](http://stackoverflow.com/a/932932).
 
 - Install [Homebrew](http://brew.sh/) if you haven't already
 
@@ -92,7 +92,7 @@ These steps have been tested on Mountain Lion 10.8.4 with Xcode 4.6.3. It is pro
   ```sh
   gqrx
   ```
-  
+
   If you want gr-fosphor installed
 
   ```sh
