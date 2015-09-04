@@ -1,6 +1,3 @@
----
-published: false
----
 
 # HackRF OSX Install
 
@@ -8,7 +5,7 @@ This will walk you through getting HackRF to work on OSX. It is really just an a
 
 ## Installation
 
-These steps have been tested on Mountain Lion 10.10.5 with Xcode 6.4. It is probably a good idea to make sure all OSX updates have been applied and Xcode is up to date. Also, probably good to install the Xcode command line apps as explained over at[Stackoverflow](http://stackoverflow.com/a/932932).
+These steps have been tested on Mountain Lion 10.10.5 with Xcode 6.4. It is probably a good idea to make sure all OSX updates have been applied and Xcode is up to date. Also, probably good to install the Xcode command line apps as explained over at [Stackoverflow](http://stackoverflow.com/a/932932).
 
 - Install [Homebrew](http://brew.sh/) if you haven't already
 
@@ -116,7 +113,7 @@ gnuradio-companion
 osmocom_fft -a hackrf
 ```
 
-##Troubleshooting
+## Troubleshooting
 
 - **Matplotlib**
 
@@ -136,6 +133,7 @@ osmocom_fft -a hackrf
   From [Stackoverflow](http://stackoverflow.com/questions/12363557/matplotlib-install-failure-on-mac-osx-10-8-mountain-lion/15098059#15098059) via [@savant42](https://twitter.com/savant42)
 
 - **Uninstall Homebrew**
+
   If you think you have some cruftiness with Homebrew, this Gist will completely uninstall Homebrew and any libraries it may have installed. Of course if you are using Homebrew for other things you could make a mess of your life.
 
   This [Gist](https://gist.github.com/mxcl/1173223) is from the [Homebrew FAQ](https://github.com/mxcl/homebrew/wiki/FAQ)
