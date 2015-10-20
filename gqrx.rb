@@ -6,7 +6,7 @@ require 'formula'
 
 class Gqrx < Formula
   homepage 'https://github.com/csete/gqrx'
-  head 'https://github.com/csete/gqrx.git', :branch => 'gr3.6'
+  head 'https://github.com/csete/gqrx.git'
 
   depends_on 'cmake' => :build
   depends_on 'qt'
@@ -14,10 +14,10 @@ class Gqrx < Formula
   depends_on 'boost'
   depends_on 'gnuradio'
 
-  def patches
-    #patch to compile to binary, comment out pulse audio and link boost correctly
-    DATA
-  end
+#  def patches
+#    #patch to compile to binary, comment out pulse audio and link boost correctly
+#    DATA
+#  end
 
   def install
     system "qmake -set PKG_CONFIG /usr/local/bin/pkg-config"      
