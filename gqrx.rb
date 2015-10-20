@@ -20,9 +20,9 @@ class Gqrx < Formula
   end
 
   def install
-    system "qmake -set PKG_CONFIG /usr/local/bin/pkg-config"      
-    system "qmake -query"
-    system "qmake gqrx.pro"
+    system "mkdir build"      
+    system "cd build"
+    system "qmake .."
     system "make"
     bin.install 'gqrx.app/Contents/MacOS/gqrx'
   end
