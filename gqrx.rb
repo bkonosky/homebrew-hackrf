@@ -20,9 +20,7 @@ class Gqrx < Formula
   end
 
   def install
-    system "mkdir build"      
-    system "cd build"
-    system "qmake .."
+    system "qmake gqrx.pro"
     system "make"
     bin.install 'gqrx.app/Contents/MacOS/gqrx'
   end
