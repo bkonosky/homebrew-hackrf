@@ -12,7 +12,7 @@ class Gqrx < Formula
   depends_on 'qt'
 #brew install --with-c+11 --universal boost
   depends_on 'boost'
-#  depends_on 'gnuradio'
+  depends_on 'gnuradio'
 
   def patches
     #patch to link boost correctly
@@ -20,6 +20,7 @@ class Gqrx < Formula
   end
 
   def install
+    system "pkg-config --list-all | grep gnuradio"
     system "qmake gqrx.pro"
     system "make"
     bin.install 'gqrx.app/Contents/MacOS/gqrx'
