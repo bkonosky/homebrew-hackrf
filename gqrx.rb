@@ -12,7 +12,7 @@ class Gqrx < Formula
   depends_on 'qt'
 #brew install --with-c+11 --universal boost
   depends_on 'boost'
-  depends_on 'gnuradio'
+#  depends_on 'gnuradio'
 
   def patches
     #patch to link boost correctly
