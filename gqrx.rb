@@ -13,7 +13,7 @@ class Gqrx < Formula
 #brew install --with-c+11 --universal boost
   depends_on 'boost'
   depends_on 'gnuradio'
-  depends_on 'gr-osmossdr'
+  depends_on 'gr-osmosdr'
 
   def patches
     #patch to link boost correctly
